@@ -3,7 +3,7 @@
 		background-color: black;
 		border: 1px solid black;
 	}
-    to {
+	to {
 		background-color: white;
 		border: 1px solid #606060;
 	}
@@ -13,7 +13,7 @@
 		background-color: white;
 		border: 1px solid #606060;
 	}
-    to {
+	to {
 		background-color: black;
 		border: 1px solid black;
 	}
@@ -22,7 +22,7 @@
     from {
 		color: white;
 	}
-    to {
+	to {
 		color: black;
 	}
 }
@@ -30,7 +30,7 @@
 	from {
 		color: black;
 	}
-    to {
+	to {
 		color: white;
 	}
 }
@@ -41,7 +41,7 @@
 		background-color: black;
 		border: 1px solid black;
 	}
-    to {
+	to {
 		background-color: white;
 		border: 1px solid #606060;
 	}
@@ -51,7 +51,7 @@
 		background-color: white;
 		border: 1px solid #606060;
 	}
-    to {
+	to {
 		background-color: black;
 		border: 1px solid black;
 	}
@@ -60,7 +60,7 @@
     from {
 		color: white;
 	}
-    to {
+	to {
 		color: black;
 	}
 }
@@ -68,7 +68,7 @@
 	from {
 		color: black;
 	}
-    to {
+	to {
 		color: white;
 	}
 }
@@ -100,11 +100,18 @@ p.subtitle{
 	text-align: center;
 	font-size: 1.5em; 
 }
-table{
+table.nav{
 	margin: auto;
 	border-spacing: 40px;
 }
-td{
+.res{
+	text-align: center;
+	color: #0f0f0f; /*unnoticeable color change, please revise*/
+	font-size: 15px; /*um*/
+}
+
+
+table.nav td{
 	-webkit-animation-name: navbar-out 0.5s;
 	animation: navbar-out 0.5s;
 	font-family: 'Montserrat';
@@ -114,27 +121,27 @@ td{
 	height: 50px;
 	text-align: center;
 }
-td a{
+table.nav td a{
 	-webkit-animation-name: navbar-a-out 0.5s;
 	animation: navbar-a-out 0.5s;
 	width: 100%;
+	height: 50px;
+	vertical-align: center;
 	display: block;
 	text-decoration: none;
 	color: white;
 }
-td:hover{
+table.nav td:hover{
 	-webkit-animation-name: navbar-in 0.5s;
 	animation: navbar-in 0.5s;
 	background-color: white;
 	border: 1px solid #606060;
 }
-td:hover a{
+table.nav td:hover a{
 	-webkit-animation: navbar-a-in 0.5s;
 	animation: navbar-a-in 0.5s;
 	color: black;
 }
-.res{
-	text-align: center;
-	color: #0f0f0f; /*unnoticeable color change, please revise*/
-	font-size: 15px; /*um*/
-}
+
+
+
