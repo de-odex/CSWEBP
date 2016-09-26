@@ -1,5 +1,0 @@
-<link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
-
-font-family: "Montserrat", Arial, sans-serif;
-
-font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Open Sans", Arial, sans-serif;
