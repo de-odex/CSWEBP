@@ -124,10 +124,9 @@ table.nav td{
 table.nav td a{
 	-webkit-animation-name: navbar-a-out 0.5s;
 	animation: navbar-a-out 0.5s;
-	width: 100%;
-	height: 50px;
 	vertical-align: center;
-	display: block;
+	width: 100%;
+	display: inline-block;
 	text-decoration: none;
 	color: white;
 }
