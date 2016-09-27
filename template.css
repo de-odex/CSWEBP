@@ -100,9 +100,11 @@ p.subtitle{
 	text-align: center;
 	font-size: 1.5em; 
 }
-table.nav{
-	margin: auto;
-	border-spacing: 40px;
+ul.nav{
+	margin: 0;
+	list-style-type: none;
+	display: block;
+	float: center;
 }
 .res{
 	text-align: center;
@@ -111,7 +113,7 @@ table.nav{
 }
 
 
-table.nav td{
+.nav li{
 	-webkit-animation-name: navbar-out 0.5s;
 	animation: navbar-out 0.5s;
 	font-family: 'Montserrat';
@@ -121,7 +123,7 @@ table.nav td{
 	height: 50px;
 	text-align: center;
 }
-table.nav td a{
+.nav li a{
 	-webkit-animation-name: navbar-a-out 0.5s;
 	animation: navbar-a-out 0.5s;
 	vertical-align: center;
@@ -130,13 +132,13 @@ table.nav td a{
 	text-decoration: none;
 	color: white;
 }
-table.nav td:hover{
+.nav li:hover{
 	-webkit-animation-name: navbar-in 0.5s;
 	animation: navbar-in 0.5s;
 	background-color: white;
 	border: 1px solid #606060;
 }
-table.nav td:hover a{
+.nav li:hover a{
 	-webkit-animation: navbar-a-in 0.5s;
 	animation: navbar-a-in 0.5s;
 	color: black;
