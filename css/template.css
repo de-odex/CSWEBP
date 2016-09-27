@@ -1,0 +1,160 @@
+@keyframes navbar-in {
+	from {
+		background-color: black;
+		border: 1px solid black;
+	}
+	to {
+		background-color: white;
+		border: 1px solid #606060;
+	}
+}
+@keyframes navbar-out {
+	from {
+		background-color: white;
+		border: 1px solid #606060;
+	}
+	to {
+		background-color: black;
+		border: 1px solid black;
+	}
+}
+@keyframes navbar-a-in {
+    from {
+		color: white;
+	}
+	to {
+		color: black;
+	}
+}
+@keyframes navbar-a-out {
+	from {
+		color: black;
+	}
+	to {
+		color: white;
+	}
+}
+
+
+@-webkit-keyframes navbar-in {
+	from {
+		background-color: black;
+		border: 1px solid black;
+	}
+	to {
+		background-color: white;
+		border: 1px solid #606060;
+	}
+}
+@-webkit-keyframes navbar-out {
+	from {
+		background-color: white;
+		border: 1px solid #606060;
+	}
+	to {
+		background-color: black;
+		border: 1px solid black;
+	}
+}
+@-webkit-keyframes navbar-a-in {
+    from {
+		color: white;
+	}
+	to {
+		color: black;
+	}
+}
+@-webkit-keyframes navbar-a-out {
+	from {
+		color: black;
+	}
+	to {
+		color: white;
+	}
+}
+
+
+@font-face{
+	font-family: Brusher;
+	src: url('../assets/Brusher.ttf')
+}
+
+
+body{
+	background-image: url('../assets/background.jpg');
+	background-repeat: repeat;
+	background-size: cover;
+}
+h1{
+	font-family: Brusher,'Montserrat', Arial, sans-serif;
+	font-size: 5em;
+	text-align: center;
+	margin: 15% 0px 0.2em 0px;
+	text-shadow: 5px 5px 5px #8c8c8c;
+}
+p{
+	font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", HelveticaNeue, 'Open Sans', Arial, sans-serif;
+	margin: 1em 50px;
+}
+p.subtitle{
+	text-align: center;
+	font-size: 1.5em; 
+}
+.res{
+	text-align: center;
+	color: #0f0f0f; /*unnoticeable color change, please revise*/
+	font-size: 15px; /*um*/
+}
+
+
+div.nav{
+	width: 71.1181730032%;
+    margin: auto; 
+}
+.nav ul{
+	margin: 0;
+	list-style-type: none;
+	display: block;
+	float: center;
+}
+.nav li{
+	-webkit-animation-name: navbar-out 0.5s;
+	animation: navbar-out 0.5s;
+	
+	font-family: 'Montserrat';
+	background-color: black;
+	border: 1px solid black;
+	width: 175px;
+	height: 50px;
+	margin: 20px;
+	text-align: center;
+
+	float: left;
+}
+.nav li a{
+	-webkit-animation-name: navbar-a-out 0.5s;
+	animation: navbar-a-out 0.5s;
+	
+	width: 100%;
+	padding:13px 0px;
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+}
+.nav li:hover{
+	-webkit-animation-name: navbar-in 0.5s;
+	animation: navbar-in 0.5s;
+	
+	background-color: white;
+	border: 1px solid #606060;
+}
+.nav li:hover a{
+	-webkit-animation: navbar-a-in 0.5s;
+	animation: navbar-a-in 0.5s;
+	
+	color: black;
+}
+
+
+
+

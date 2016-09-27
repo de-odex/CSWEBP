@@ -1,0 +1,74 @@
+@keyframes navbar-in {
+	from {
+		background-color: black;
+		border: 1px solid black;
+	}
+	to {
+		background-color: white;
+		border: 1px solid #606060;
+	}
+}
+@keyframes navbar-out {
+	from {
+		background-color: white;
+		border: 1px solid #606060;
+	}
+	to {
+		background-color: black;
+		border: 1px solid black;
+	}
+}
+@keyframes navbar-a-in {
+    from {
+		color: white;
+	}
+	to {
+		color: black;
+	}
+}
+@keyframes navbar-a-out {
+	from {
+		color: black;
+	}
+	to {
+		color: white;
+	}
+}
+
+
+@-webkit-keyframes navbar-in {
+	from {
+		background-color: black;
+		border: 1px solid black;
+	}
+	to {
+		background-color: white;
+		border: 1px solid #606060;
+	}
+}
+@-webkit-keyframes navbar-out {
+	from {
+		background-color: white;
+		border: 1px solid #606060;
+	}
+	to {
+		background-color: black;
+		border: 1px solid black;
+	}
+}
+@-webkit-keyframes navbar-a-in {
+    from {
+		color: white;
+	}
+	to {
+		color: black;
+	}
+}
+@-webkit-keyframes navbar-a-out {
+	from {
+		color: black;
+	}
+	to {
+		color: white;
+	}
+}
