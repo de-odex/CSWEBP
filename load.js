@@ -1,0 +1,1 @@
+document.getElementById("article1").innerHTML = articleOne;
